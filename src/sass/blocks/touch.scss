@@ -105,12 +105,9 @@
             margin-top: 45px;
         }
 
-        &__input {
+        &__form {
             width: 300px;
-        }
-
-        &__textarea {
-            width: 300px;
+            padding-left: 24px;
         }
 
         &__vase {
@@ -128,8 +125,8 @@
             margin-top: 80px;
         }
 
-        &__col {
-            padding: 0 20px;
+        &__form {
+            padding-left: 20px;
         }
 
         &__img {
@@ -157,8 +154,9 @@
     .touch {
         padding-top: 100px;
 
-        &__col {
-            padding: 0 147px;
+        &__form {
+            width: auto;
+            padding-left: 143px;
         }
 
         &__img {
@@ -170,6 +168,13 @@
             display: flex;
             flex-direction: row;
             gap: 45px;
+        }
+
+        &__label,
+        &__check-block,
+        &__input,
+        &__textarea {
+            width: 300px;
         }
 
         &__vase {
