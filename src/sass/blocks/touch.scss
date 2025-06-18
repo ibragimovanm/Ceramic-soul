@@ -99,13 +99,12 @@
 
 @media screen and (min-width: 768px) {
     .touch {
-        position: relative;
-
         &__wrapper {
             margin-top: 45px;
         }
 
         &__form {
+            position: relative;
             width: 300px;
             padding-left: 24px;
         }
@@ -113,7 +112,7 @@
         &__vase {
             display: block;
             position: absolute;
-            right: 24px;
+            right: 0;
             bottom: 0;
         }
     }
@@ -144,9 +143,9 @@
             }
         }
 
-        &__vase {
-            right: 30px;
-        }
+        // &__vase {
+        //     right: 30px;
+        // }
     }
 }
 
@@ -178,7 +177,7 @@
         }
 
         &__vase {
-            right: 315px;
+            right: 75px;
         }
     }
 }
