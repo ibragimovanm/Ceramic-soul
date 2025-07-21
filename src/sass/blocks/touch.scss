@@ -3,6 +3,11 @@
 .touch {
     padding-top: 60px;
 
+    .just-validate-error-field {
+        border: none;
+        outline: 1px solid $ui-error;
+    }
+
     &__wrapper {
         margin-top: 59px;
     }
@@ -79,6 +84,11 @@
             color: #A22DC6;
             text-decoration: none;
             margin-left: 2px;
+        }
+
+        .just-validate-error-field {
+            border: none;
+            outline: none;
         }
     }
 
