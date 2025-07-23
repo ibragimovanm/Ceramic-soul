@@ -43,7 +43,7 @@
         border: 1px solid #E2E1E5;
         background: #FFFFFF;
 
-        :focus {
+        &:focus {
             border: none;
             outline: 1px solid $dark;
         }
@@ -64,7 +64,7 @@
         background: #FFFFFF;
         resize: none;
 
-        :focus {
+        &:focus {
             border: none;
             outline: 1px solid $dark;
         }
@@ -152,10 +152,6 @@
                 outline: 1px solid $dark;
             }
         }
-
-        // &__vase {
-        //     right: 30px;
-        // }
     }
 }
 
