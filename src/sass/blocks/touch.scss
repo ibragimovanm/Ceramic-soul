@@ -152,6 +152,10 @@
                 outline: 1px solid $dark;
             }
         }
+
+        &__vase {
+            animation: moveAndRotate 4s linear infinite;
+        }
     }
 }
 
